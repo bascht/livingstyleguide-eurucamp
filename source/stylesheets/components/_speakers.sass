@@ -22,6 +22,9 @@
   margin-bottom: 20px
   @include grid(2, 2, 2, 2)
 
+  &:nth-child(even)
+    @include translateY(50%)
+
 .speakers--list-item-avatar
   //border: 5px $gray solid
   display: block
